@@ -154,10 +154,16 @@ nano ~/.junction/config/app.toml
 minimum-gas-prices = "0.00025amf"
 ```
 
-7. Start your node
+7. Create a new tmux terminal
+```
+sudo tmux new -s airchain
+```
+
+8. Start the node
 ```
 junctiond start
 ```
+
 
 **After completing all the steps, you need to let the node run for about 10-20 minutes. During this time, you might receive notifications indicating that the node is having trouble connecting. You can ignore these messages initially. After 10-20 minutes, you should see many messages appearing, and the height should be changing. This indicates that the node is syncing.**
 
