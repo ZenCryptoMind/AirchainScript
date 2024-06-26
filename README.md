@@ -21,3 +21,12 @@ sudo apt install git -y
 https://github.com/ZenCryptoMind/AirchainScript.git
 ```
 
+3. Navigate into the cloned directory
+```
+cd AirchainScript
+```
+
+4. Make the script executable
+```
+chmod +x xairchain.sh
+```
