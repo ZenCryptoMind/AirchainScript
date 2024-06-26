@@ -62,19 +62,6 @@ fi
 echo "🔄 Installing curl and tmux..."
 sudo apt install curl tmux -y
 
-# Install Ignite
-echo "🔄 Installing Ignite..."
-wget https://github.com/ignite/cli/releases/download/v0.27.1/ignite_0.27.1_linux_amd64.tar.gz
-tar -xvf ignite_0.27.1_linux_amd64.tar.gz
-sudo mv ignite /usr/local/bin
-ignite version
-
-# Check if Ignite installation was successful
-if [ $? -ne 0 ]; then
-    echo "❌ Failed to install Ignite. Exiting."
-    exit 1
-fi
-
 # Install Go
 echo "🔄 Installing Go..."
 wget https://dl.google.com/go/go1.20.1.linux-amd64.tar.gz
@@ -92,6 +79,19 @@ source ~/.bashrc
 
 # Display Go version
 go version
+
+# Install Ignite
+echo "🔄 Installing Ignite..."
+wget https://github.com/ignite/cli/releases/download/v0.27.1/ignite_0.27.1_linux_amd64.tar.gz
+tar -xvf ignite_0.27.1_linux_amd64.tar.gz
+sudo mv ignite /usr/local/bin
+ignite version
+
+# Check if Ignite installation was successful
+if [ $? -ne 0 ]; then
+    echo "❌ Failed to install Ignite. Exiting."
+    exit 1
+fi
 
 # Firewall setup (UFW)
 echo "🔒 Configuring firewall (UFW)..."
