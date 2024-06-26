@@ -90,7 +90,7 @@ If you have followed the previous steps and everything has worked correctly, you
 
 1. Initialize your node with a moniker
 
-**Replace <moniker> with a name for your node. This name can be anything you choose and will be used to identify your node in the network.-> "junctiond init TestNode1"**
+**Replace <moniker> with a name for your node. This name can be anything you choose and will be used to identify your node in the network.-> junctiond init TestNode1**
 ```
 junctiond init <moniker>
 ```
