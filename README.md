@@ -137,7 +137,7 @@ sed -i.bak -e "s/^persistent_peers *=.*/persistent_peers = \"$peers\"/" ~/.junct
 
 4. Edit the app.toml configuration file to set the minimum gas prices
 ```
-cat ~/.junction/config/app.toml | grep minimum-gas-prices
+nano ~/.junction/config/app.toml
 ```
 **Find the line that starts with minimum-gas-prices and set it as follows**
 ```
