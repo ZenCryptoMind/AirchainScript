@@ -50,9 +50,8 @@ junctiond init <moniker>
 ```
 nano ~/.junction/config/config.toml
 ```
-**Use the arrow keys to scroll down to the [p2p] section. It might look something like "persistent_peers = "
-  Modify the persistent_peers line to include your peer
-**
+**Use the arrow keys to scroll down to the [p2p] section. It might look something like "persistent_peers = "**
+**Modify the persistent_peers line to include your peer**
 
 ```
 persistent_peers = "de2e7251667dee5de5eed98e54a58749fadd23d8@34.22.237.85:26656"
