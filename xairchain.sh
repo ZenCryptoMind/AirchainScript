@@ -70,38 +70,4 @@ tar -xvf ignite_0.27.1_linux_amd64.tar.gz
 sudo mv ignite /usr/local/bin
 ignite version
 
-# Install Go
-echo "🔄 Installing Go..."
-wget https://dl.google.com/go/go1.20.1.linux-amd64.tar.gz
-sudo tar -C /usr/local -xzf go1.20.1.linux-amd64.tar.gz
-
-# Check if Go installation was successful
-if [ $? -ne 0 ]; then
-    echo "❌ Failed to install Go. Exiting."
-    exit 1
-fi
-
-# Add Go binary directory to PATH
-echo 'export PATH=$PATH:/usr/local/go/bin' >> ~/.bashrc
-source ~/.bashrc
-
-# Display Go version
-go version
-
-
-# Firewall setup (UFW)
-echo "🔒 Configuring firewall (UFW)..."
-sudo apt-get install ufw -y
-
-# Enable UFW and allow necessary ports
-sudo ufw enable -y
-sudo ufw allow 26657/tcp
-sudo ufw allow 1317/tcp
-sudo ufw allow 26656/tcp
-sudo ufw allow 4500/tcp
-
-# Display UFW status for verification
-echo "ℹ️ Firewall (UFW) status:"
-sudo ufw status verbose
-
-echo "✅ Installation complete."
+echo "✅ You might received the Ignite error, ignore it"
