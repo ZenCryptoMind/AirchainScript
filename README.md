@@ -63,6 +63,7 @@ Check the version of Go
 ```
 go version
 ```
+![image](https://github.com/ZenCryptoMind/AirchainScript/assets/173910157/a3aea73d-e67c-4362-87f8-fc5526293bc0)
 
 8. Firewall setup (UFW)
 ```
