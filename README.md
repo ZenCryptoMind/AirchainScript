@@ -72,7 +72,7 @@ sudo apt-get install ufw -y
 
 **Enable UFW**
 ```
-sudo ufw enable -y
+sudo ufw enable
 ```
 
 **Allow necessary ports**
