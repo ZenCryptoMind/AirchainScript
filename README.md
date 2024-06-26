@@ -18,7 +18,7 @@ sudo apt install git -y
 
 2. Clone the GitHub repository
 ```
-https://github.com/ZenCryptoMind/AirchainScript.git
+git clone https://github.com/ZenCryptoMind/AirchainScript.git
 ```
 
 3. Navigate into the cloned directory
