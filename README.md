@@ -88,6 +88,8 @@ cd
 ```
 sudo ufw status 
 ```
+![image](https://github.com/ZenCryptoMind/AirchainScript/assets/173910157/25704ce3-42bf-4e68-b316-019b033c71f5)
+
 
 10. Download the junctiond binary
 ```
