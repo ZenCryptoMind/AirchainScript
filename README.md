@@ -36,6 +36,49 @@ chmod +x xairchain.sh
 ./xairchain.sh
 ```
 
+6.  Installing Go...
+```
+wget https://dl.google.com/go/go1.20.1.linux-amd64.tar.gz
+sudo tar -C /usr/local -xzf go1.20.1.linux-amd64.tar.gz
+```
+7. Set environment variable 
+
+**To set up the environment variables for Go, you need to add /usr/local/go/bin to the PATH environment variable. Here are the detailed steps**
+```
+nano ~/.bashrc
+```
+
+Scroll until the end of the file and add this:
+
+```
+
+export PATH=$PATH:/usr/local/go/bin
+```
+Check the version of Go
+
+```
+go version
+```
+
+8. Firewall setup (UFW)
+```
+sudo apt-get install ufw -y
+```
+
+**Enable UFW and allow necessary ports**
+```
+sudo ufw enable -y
+sudo ufw allow 26657/tcp
+sudo ufw allow 1317/tcp
+sudo ufw allow 26656/tcp
+sudo ufw allow 4500/tcp
+```
+
+9. Display UFW status for verification
+```
+sudo ufw status verbose
+```
+
 ## Node Configurations
 
 If you have followed the previous steps and everything has worked correctly, you can now proceed with these steps
