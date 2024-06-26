@@ -14,11 +14,10 @@ This script assumes you already have a VPS or Docker container. It is suitable f
 ```
 sudo apt update
 sudo apt install git -y
-
 ```
+
 2. Clone the GitHub repository
 ```
 https://github.com/ZenCryptoMind/AirchainScript.git
-
 ```
 
