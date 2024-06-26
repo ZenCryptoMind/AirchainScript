@@ -81,11 +81,27 @@ sudo ufw allow 26657/tcp
 sudo ufw allow 1317/tcp
 sudo ufw allow 26656/tcp
 sudo ufw allow 4500/tcp
+cd
 ```
 
 9. Display UFW status for verification
 ```
-sudo ufw status verbose
+sudo ufw status 
+```
+
+10. Download the junctiond binary
+```
+wget https://github.com/airchains-network/junction/releases/download/v0.1.0/junctiond
+```
+
+11. Make the binary executable
+```
+chmod +x junctiond
+```
+
+12. sudo mv junctiond /usr/local/bin
+```
+sudo mv junctiond /usr/local/bin
 ```
 
 ## Node Configurations
