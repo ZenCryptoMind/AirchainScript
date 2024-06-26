@@ -70,9 +70,13 @@ go version
 sudo apt-get install ufw -y
 ```
 
-**Enable UFW and allow necessary ports**
+**Enable UFW**
 ```
 sudo ufw enable -y
+```
+
+**Allow necessary ports**
+```
 sudo ufw allow 26657/tcp
 sudo ufw allow 1317/tcp
 sudo ufw allow 26656/tcp
