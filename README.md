@@ -44,7 +44,7 @@ If you have followed the previous steps and everything has worked correctly, you
 ```
 junctiond init <moniker>
 ```
-**Replace <moniker> with a name for your node. This name can be anything you choose and will be used to identify your node in the network.**
+**Replace <moniker> with a name for your node. This name can be anything you choose and will be used to identify your node in the network.-> junctiond init TestNode1**
 
 
 
