@@ -167,6 +167,9 @@ junctiond start
 
 **After completing all the steps, you need to let the node run for about 10-20 minutes. During this time, you might receive notifications indicating that the node is having trouble connecting. You can ignore these messages initially. After 10-20 minutes, you should see many messages appearing, and the height should be changing. This indicates that the node is syncing.**
 
+![image](https://github.com/ZenCryptoMind/AirchainScript/assets/173910157/92ceb0da-0f90-4fec-8f21-30d144cd54ef)
+
+
 ## Troubleshooting
 
 ### Failed to Init VRF error fix
