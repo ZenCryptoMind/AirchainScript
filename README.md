@@ -168,3 +168,5 @@ junctiond start
 **After completing all the steps, you need to let the node run for about 10-20 minutes. During this time, you might receive notifications indicating that the node is having trouble connecting. You can ignore these messages initially. After 10-20 minutes, you should see many messages appearing, and the height should be changing. This indicates that the node is syncing.**
 
 ## Troubleshooting
+
+### Failed to Init VRF error fix
