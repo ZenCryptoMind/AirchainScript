@@ -51,11 +51,15 @@ nano ~/.bashrc
 Scroll until the end of the file and add this:
 
 ```
-
 export PATH=$PATH:/usr/local/go/bin
 ```
-Check the version of Go
 
+save the changes
+```
+source ~/.bashrc
+```
+
+Check the version of Go
 ```
 go version
 ```
