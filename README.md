@@ -8,7 +8,9 @@ This script assumes you already have a VPS or Docker container. It is suitable f
 ![image](https://github.com/ZenCryptoMind/AirchainScript/assets/173910157/ce142925-2db7-4521-988b-29e3eb4342f0)
 
 
+## Script Usage Instructions:
 
+1. Install Git if not already installed:
 ```
 sudo apt update
 sudo apt install git -y
