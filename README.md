@@ -30,3 +30,9 @@ cd AirchainScript
 ```
 chmod +x xairchain.sh
 ```
+
+5. Run the script
+```
+./xairchain.sh
+```
+
