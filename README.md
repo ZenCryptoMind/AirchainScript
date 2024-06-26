@@ -46,5 +46,16 @@ junctiond init <moniker>
 ```
 **Replace <moniker> with a name for your node. This name can be anything you choose and will be used to identify your node in the network.-> "junctiond init TestNode1"**
 
+7. Edit the configuration file to set persistent peers
+```
+nano ~/.junction/config/config.toml
+```
+**Use the arrow keys to scroll down to the [p2p] section. It might look something like "persistent_peers = "
+  Modify the persistent_peers line to include your peer
+**
 
+```
+persistent_peers = "de2e7251667dee5de5eed98e54a58749fadd23d8@34.22.237.85:26656"
+```
+**This step ensures your node connects to the specified peer in the network.**
 
