@@ -170,3 +170,5 @@ junctiond start
 ## Troubleshooting
 
 ### Failed to Init VRF error fix
+
+If you encounter the error "Failed to Init VRF error fix," you need to change your RPC
