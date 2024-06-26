@@ -41,10 +41,11 @@ chmod +x xairchain.sh
 If you have followed the previous steps and everything has worked correctly, you can now proceed with these steps
 
 6. Initialize your node with a moniker
+
+**Replace <moniker> with a name for your node. This name can be anything you choose and will be used to identify your node in the network.-> "junctiond init TestNode1"**
 ```
 junctiond init <moniker>
 ```
-**Replace <moniker> with a name for your node. This name can be anything you choose and will be used to identify your node in the network.-> "junctiond init TestNode1"**
 
 7. Edit the configuration file to set persistent peers
 ```
